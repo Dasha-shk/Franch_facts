@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(226, 221, 253);
+}
+body h1{ 
+    color: rgb(4, 0, 0);
+    text-align:center
+}
+.blue-bloc{
+    background-color: rgb(81, 106, 249);
+    border: 5px black ridge;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.purpol-bloc{
+    background-color: rgb(181, 120, 251);
+    border: 5px black ridge;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.facts{
+    background-color: rgb(155, 155, 249);
+    border: 5px black ridge;
+    color: rgb(247, 249, 250);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.facts:hover{
+    color: black;
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+}
